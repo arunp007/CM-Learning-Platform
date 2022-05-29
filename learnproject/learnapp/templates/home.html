@@ -32,6 +32,51 @@
       width: 400px;
     }
 
+    .content1{
+      margin-top: 100px;
+      padding-top: 20px;
+      margin-bottom: 30px;
+      width: 380px;
+      height: 350px;
+      background-color: lightcoral;
+      border-radius: 20px;
+    }
+
+    .content1:hover{
+      background-color: aquamarine;
+      box-shadow: 0 0 10px black;
+    }
+
+    .content2{
+      margin-top: 100px;
+      padding-top: 20px;
+      margin-bottom: 30px;
+      width: 380px;
+      height: 350px;
+      background-color: lemonchiffon;
+      border-radius: 20px;
+    }
+
+    .content2:hover{
+      background-color: aquamarine;
+      box-shadow: 0 0 10px black;
+    }
+
+    .content3{
+      margin-top: 100px;
+      padding-top: 20px;
+      margin-bottom: 30px;
+      width: 380px;
+      height: 350px;
+      background-color: lightblue;
+      border-radius: 20px;
+    }
+
+    .content3:hover{
+      background-color: aquamarine;
+      box-shadow: 0 0 10px black;
+    }
+
 </style>
 <body>
     
@@ -44,16 +89,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">FAQs</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Code Master Advantage</a>
+                <a class="nav-link" href="#about">Code Master Advantage</a>
             </li>
           </ul>
           <form class="form-warning">
@@ -102,14 +144,133 @@
       <div class="row">
         <div class="col-xs-12 col-lg-12" style="background-color: white;">
           <center><h1 style="margin-top: 50px;">Why Choose Code Master?</h1></center>
+        </div>
             <div class="col-xs-4 col-lg-4" style="margin-top: 50px;">
-              <center><img src="{% static 'images/self_learn.jpg' %}" width="100px" style="border: 2px solid orange; background-color: orange; border-radius: 10px; margin-bottom: 10px;"></center>
+              <center><img src="{% static 'images/self_learn.jpg' %}" width="100px" style="border: 2px solid orange; border-radius: 10px; margin-bottom: 10px;"></center>
               <center><h5>Self Learning Platform</h5></center>
             </div>
+
+            <div class="col-xs-4 col-lg-4" style="margin-top: 50px;">
+              <center><img src="{% static  'images/easy.png' %}" width="100px" style="border: 2px solid blue; border-radius: 10px; margin-bottom: 10px;"></center>
+              <center><h5>Easy To Study</h5></center>
+            </div>
+
+            <div class="col-xs-4 col-lg-4" style="margin-top: 50px;">
+              <center><img src="{% static  'images/user.png' %}" width="100px" style="border: 2px solid red; border-radius: 10px; margin-bottom: 10px;"></center>
+              <center><h5>24x7 Doubt Clearance Assistance</h5></center>
+            </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="margin-top: 70px; background-color: #F1EDFD; ">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12">
+          <center><h1 style="margin-top: 50px;" id="features">Self Learning Advantage</h1></center>
+        </div>
+
+        <div class="col-xs-6 col-lg-6">
+          <img src="{% static 'images/self learn.png' %}" width="500px" style="margin-top: 50px; margin-bottom: 50px;">
+        </div>
+
+        <div class="col-xs-6 col-lg-6" style="margin-top: 50px; margin-bottom: 30px;">
+          <h4><img src="{% static 'images/self1.svg' %}" width="50px">Learning at your own pace</h4>
+          <p>During self-study, students learn at their own pace, focusing more on areas <br> that interest them the most or that which they understand better.</p>
+
+          <h4><img src="{% static 'images/self1.svg' %}" width="50px">Better insights into learning</h4>
+          <p>Students who self-learn have more opportunities to control their learning <br> with better data insights.</p>
+
+          <h4><img src="{% static 'images/self1.svg' %}" width="50px">Students become an expert</h4>
+          <p>Self-directed students become an epitome of perfection and exhibit characteristics <br> that let their peers become motivated, persistent, self-disciplined, self-oriented, <br> and target-oriented.</p>
+
+          <h4><img src="{% static 'images/self2.svg' %}" width="50px">Instant doubt solving</h4>
+          <p>24x7 Doubt Clearance Assistance Avaliable On Whatsapp For All Students To <br> Solve There Doubts.</p><br>
+          <button class="btn btn-warning" type="submit"><a href="#top" style="text-decoration: none; color: black;">Sign Up Now</a> </button>
         </div>
       </div>
     </div>
-    
+    <div class="container-fluid" style="background-color: white; margin-bottom: 210px;">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12">
+          <center><h1 style="margin-top: 50px;" id="about">Code Master Learning Environment</h1></center>
+        </div>
+
+        <div class="col-xs-4 col-lg-4">
+          <center><div class="content1">
+            <center><img src="{% static 'images/self1.svg' %}" width="50px" style="margin-top: 20px;"></center>
+            <center><h4 style="margin-top: 20px;">Self Learning</h4></center>
+            <center><p style="margin-top: 20px;">Self Learning Helps Students To Learn Everything By <br> Themself And Make Better Skills That Need For A <br> Company. They Will Become Export Gradually <br> In The Field.</p></center>
+          </div></center>
+        </div>
+
+        <div class="col-xs-4 col-lg-4">
+          <center><div class="content2">
+            <center><img src="{% static 'images/logic.svg' %}" width="50px" style="margin-top: 20px;"></center>
+            <center><h4 style="margin-top: 20px;">Easy To Study</h4></center>
+            <center><p style="margin-top: 20px;">We Made A Easily Understandable Learning <br> Platform  To Learn Easily. Simple And Easily Learning Environment Helps You Learn Better And Become An Expert.</p></center>
+          </div></center>
+        </div>
+
+        <div class="col-xs-4 col-lg-4">
+          <center><div class="content3">
+            <center><img src="{% static 'images/assistance.svg' %}" width="50px" style="margin-top: 20px;"></center>
+            <center><h4 style="margin-top: 20px;">24x7 Assistance</h4></center>
+            <center><p style="margin-top: 20px;">We Provide You 24x7 Whatsapp Doubt Clearance Assistance</p></center>
+          </div></center>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: lightpink; padding-bottom: 120px;">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12">
+          <center><h1 style="margin-top: 50px; margin-bottom: 30px;" id="testimonials">Testimonials</h1></center>
+        </div>
+
+        <div class="col-xs-4 col-lg-4" style="padding-top: 100px;">
+          <center><img src="{% static 'images/jake oates.jpg' %}" width="200px" height="200px" style="border-radius: 150px;"></center>
+          <center><h5 style="padding-top: 30px;">Jake Oates</h5></center>
+          <center><label>Class 10</label>&nbsp;|&nbsp;<label>England</label></center>
+          <center><p style="padding-top: 10px;">It Was Awesome Experience With Code Master Learning Platform. Now I Learned How To Make A Website And How To Host It. Thank You Code Master Team For Helping Me To Learn Web Development</p></center>
+        </div>
+
+        <div class="col-xs-4 col-lg-4" style="padding-top: 100px;">
+          <center><img src="{% static 'images/noah blaine.jpg' %}" width="200px" height="200px" style="border-radius: 150px;"></center>
+          <center><h5 style="padding-top: 30px;">Noah Blaine</h5></center>
+          <center><label>Class 10</label>&nbsp;|&nbsp;<label>California</label></center>
+          <center><p style="padding-top: 10px;">It Was Awesome Experience With Code Master Learning Platform. Now I Learned How To Make A Website And How To Host It. Thank You Code Master Team For Helping Me To Learn Web Development</p></center>
+        </div>
+
+        <div class="col-xs-4 col-lg-4" style="padding-top: 100px;">
+          <center><img src="{% static 'images/gian cescon.jpg' %}" width="200px" height="200px" style="border-radius: 150px;"></center>
+          <center><h5 style="padding-top: 30px;">Gian Cescon</h5></center>
+          <center><label>Class 10</label>&nbsp;|&nbsp;<label>Mexico</label></center>
+          <center><p style="padding-top: 10px;">It Was Awesome Experience With Code Master Learning Platform. Now I Learned How To Make A Website And How To Host It. Thank You Code Master Team For Helping Me To Learn Web Development</p></center>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: purple;">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12">
+           <h1 style="color: gold; padding-top: 50px;">Courses</h1>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">Python</label>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">HTML</label>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">CSS</label>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">JavaScript</label>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">MySQL</label>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">C</label>
+           <label style="color: white; margin-left: 10px; font-size: 20px;">C++</label>
+        </div>
+        <div class="col-xs-12 col-lg-12">
+          <h1 style="color: gold; padding-top: 50px;">Follow Us</h1>
+          <a href="https://www.instagram.com/codemaster8848/" style="margin-left: 10px;"><img src="{% static 'images/Instagram.png' %}" width="50px"></a>
+          <a href="https://www.linkedin.com/in/arun-pacheeri-302480190" style="margin-left: 10px;"><img src="{% static 'images/LinkedIn.svg' %}" width="50px"></a>
+          <a href="https://codemaster234.blogspot.com/" style="margin-left: 10px;"><img src="{% static 'images/Blogger.svg' %}" width="50px"></a>
+        </div>
+        <div class="col-xs-12 col-lg-12" style="margin-top: 50px;">
+          <a href="" style="margin-left: 10px; color: white;"><label>Disclaimer</label></a>
+          <a href="" style="margin-left: 10px; color: white;"><label>Privacy Policy</label></a>
+          <a href="" style="margin-left: 10px; color: white;"><label>© 2022, Code Master. All rights reserved.</label></a>
+        </div>
+      </div>
+    </div>
 
     <script>
       function validation(){

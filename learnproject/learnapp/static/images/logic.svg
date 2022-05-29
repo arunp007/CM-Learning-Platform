@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_55" fill="#fff" stroke="#707070" d="M0 0H50V50H0z" transform="translate(1465 5051)"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:none;stroke:#344154;stroke-linecap:round;stroke-linejoin:round}.cls-4{fill:#35b4cf}
+        </style>
+    </defs>
+    <g id="Mask_Group_25" clip-path="url(#clip-path)" transform="translate(-1465 -5051)">
+        <g id="Group_58" transform="translate(618.796 3101.797)">
+            <path id="Path_172" d="M891.027 1972.318a2.394 2.394 0 0 0 2.394 2.394h1.025a2.394 2.394 0 0 0 2.394-2.394v-.388l-.034-1.317v-.02a3.082 3.082 0 0 1 .9-2.192 5.36 5.36 0 1 0-7.592-.047 3.2 3.2 0 0 1 .947 2.24v.019h2.872" class="cls-3" transform="translate(-22.729 -4.15)"/>
+            <path id="Line_76" d="M0 0L3.125 0" class="cls-3" transform="translate(879.268 1960.204)"/>
+            <g id="Group_56" transform="translate(879.268 1956.25)">
+                <path id="Line_77" d="M0 0L2.857 1.49" class="cls-3" transform="translate(0 6.417)"/>
+                <path id="Line_78" d="M0 1.49L2.857 0" class="cls-3" transform="translate(0)"/>
+            </g>
+            <path id="Line_79" d="M3.125 0L0 0" class="cls-3" transform="translate(859.828 1960.204)"/>
+            <g id="Group_57" transform="translate(860.096 1956.25)">
+                <path id="Line_80" d="M2.857 0L0 1.49" class="cls-3" transform="translate(0 6.417)"/>
+                <path id="Line_81" d="M2.857 1.49L0 0" class="cls-3"/>
+            </g>
+            <path id="Path_173" d="M909.958 2015.408h15.42v1.2a2.74 2.74 0 0 1-2.74 2.74h-12.68" class="cls-3" transform="translate(-36.664 -40.752)"/>
+            <path id="Path_174" d="M869.114 2019.349h-12.68a2.74 2.74 0 0 1-2.74-2.74v-1.2h15.42" class="cls-3" transform="translate(0 -40.752)"/>
+            <path id="Path_175" d="M890.795 1974.656V1953.9a1.03 1.03 0 0 0-1.031-1.03h-28.18a1.03 1.03 0 0 0-1.03 1.03v20.756" class="cls-3" transform="translate(-4.47 0)"/>
+            <path id="Path_176" d="M876 2026.722v2.959a2.546 2.546 0 0 1-2.545 2.546h-9.853a2.546 2.546 0 0 0-2.546 2.545v2.64" class="cls-3" transform="translate(-4.8 -48.124)"/>
+            <path id="Path_177" d="M903.958 2003.658v10.994a2.546 2.546 0 0 0 2.546 2.546h9.853a2.546 2.546 0 0 1 2.546 2.546v2.64" class="cls-3" transform="translate(-32.754 -33.095)"/>
+            <path id="Path_178" d="M917.168 2042.524a2.234 2.234 0 0 1 2.234 2.234v2.952" class="cls-3" transform="translate(-41.362 -58.422)"/>
+            <path id="Path_179" d="M886.568 2042.524a2.234 2.234 0 0 0-2.234 2.234v2.952" class="cls-3" transform="translate(-19.966 -58.422)"/>
+            <path id="Rectangle_51" d="M2.552 0a2.553 2.553 0 0 1 2.554 2.553 2.553 2.553 0 0 1-2.553 2.553A2.553 2.553 0 0 1 0 2.552 2.552 2.552 0 0 1 2.552 0z" class="cls-4" transform="translate(875.487 1991.602)"/>
+            <path id="Rectangle_52" d="M2.552 0a2.553 2.553 0 0 1 2.554 2.553 2.553 2.553 0 0 1-2.553 2.553A2.553 2.553 0 0 1 0 2.552 2.552 2.552 0 0 1 2.552 0z" class="cls-4" transform="translate(883.595 1991.602)"/>
+            <rect id="Rectangle_53" width="5.106" height="5.106" class="cls-4" rx="2.553" transform="translate(853.707 1991.602)"/>
+            <rect id="Rectangle_54" width="5.106" height="5.106" class="cls-4" rx="2.553" transform="translate(861.815 1991.602)"/>
+            <path id="Path_180" fill="#ffc524" d="M897.306 1967.249a4.975 4.975 0 0 1 3.32 1.632 5.324 5.324 0 0 1 .491.639 3.275 3.275 0 0 0 .162-1.013 3.27 3.27 0 0 0-3.27-3.269q-.117 0-.236.008a3.279 3.279 0 0 0-2.943 2.509 5.131 5.131 0 0 1 2.476-.506z" transform="translate(-26.806 -8.059)"/>
+        </g>
+    </g>
+</svg>
