@@ -21,22 +21,23 @@
 
     form{
       background-color: white;
-      width: 450px;
+      width: 330px;
       border-radius: 10px;
-      padding-bottom: 20px;
-      margin-bottom: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 100px;
       margin-top: 30px;
     }
 
     .btn-success{
-      width: 400px;
+      width: 290px;
+      margin-left: 20px;
     }
 
     .content1{
       margin-top: 100px;
       padding-top: 20px;
       margin-bottom: 30px;
-      width: 380px;
+      width: 330px;
       height: 350px;
       background-color: lightcoral;
       border-radius: 20px;
@@ -51,7 +52,7 @@
       margin-top: 100px;
       padding-top: 20px;
       margin-bottom: 30px;
-      width: 380px;
+      width: 330px;
       height: 350px;
       background-color: lemonchiffon;
       border-radius: 20px;
@@ -66,7 +67,7 @@
       margin-top: 100px;
       padding-top: 20px;
       margin-bottom: 30px;
-      width: 380px;
+      width: 330px;
       height: 350px;
       background-color: lightblue;
       border-radius: 20px;
@@ -106,14 +107,15 @@
     <div class="container-fluid" style="background-color:purple;">
       <div class="row">
           <div class="col-xs-6 col-lg-6">
-            <img src="{% static 'images\banner.png' %}" width="340px" style="padding-top: 100px; padding-bottom: 50px;">
+            <center><img src="{% static 'images\banner.png' %}" width="340px" style="padding-top: 100px; padding-bottom: 50px;"></center>
           </div>
           <div class="col-xs-6 col-lg-6">
             <h1 style="color:white; margin-left: 20px; margin-top: 50px; font-size: 35px; font-weight: bolder;">Let's Learn With Us</h1>
-            <p style="color: white; margin-left: 10px; font-size: 15px;">Start Learning With Us And Become Skilled <br> With Our Python Web Development Program</p>
+            <p style="color: white; margin-left: 20px; font-size: 15px;">Start Learning With Us And Become Skilled <br> With Our Python Web Development Program</p>
+            
             <form method="post">
               {% csrf_token %}
-              <h2 style="text-align: center; padding-bottom: 30px; padding-top: 30px;">Enter Your Details</h2>
+              <h3 style="text-align: center; padding-bottom: 30px; padding-top: 30px;">Enter Your Details</h3>
 
               <div class="form-group" style="padding-left: 10px; padding-right: 10px;">
                 <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email Id">
@@ -138,7 +140,6 @@
 
               <button class="btn btn-success" type="submit" onclick="return validation()">Submit</button>
             </form>
-            </center>
           </div>
       </div>
     </div>
@@ -170,7 +171,7 @@
         </div>
 
         <div class="col-xs-6 col-lg-6">
-          <img src="{% static 'images/self learn.png' %}" width="450px" style="margin-top: 50px; margin-bottom: 50px;">
+          <center><img src="{% static 'images/self learn.png' %}" width="330px" style="margin-top: 50px; margin-bottom: 50px;"></center>
         </div>
 
         <div class="col-xs-6 col-lg-6" style="margin-top: 50px; margin-bottom: 30px;">
