@@ -106,13 +106,16 @@
     </nav>
     <div class="container-fluid" style="background-color:purple;">
       <div class="row">
-          <div class="col-xs-6 col-lg-6">
-            <center><img src="{% static 'images\banner.png' %}" width="340px" style="padding-top: 100px; padding-bottom: 50px;"></center>
+          <div class="col-xs-3 col-lg-3">
+            <center><img src="{% static 'images\banner.png' %}" width="340px" style="padding-top: 50px; padding-bottom: 50px;"></center>
+          </div>
+          <div class="col-xs-3 col-lg-3">
+            <center><img src="{% static 'images\onlineclass2.png' %}" width="340px" style="padding-top: 50px; padding-bottom: 50px;"></center>
           </div>
           <div class="col-xs-6 col-lg-6">
-            <h1 style="color:white; margin-left: 20px; margin-top: 50px; font-size: 35px; font-weight: bolder;">Let's Learn With Us</h1>
-            <p style="color: white; margin-left: 20px; font-size: 15px;">Start Learning With Us And Become Skilled <br> With Our Python Web Development Program</p>
-            
+            <center><h1 style="color:white; margin-left: 20px; margin-top: 50px; font-size: 35px; font-weight: bolder;">Let's Learn With Us</h1></center>
+            <center><p style="color: white; margin-left: 20px; font-size: 15px;">Start Learning With Us And Become Skilled <br> With Our Python Web Development Program</p></center>
+            <center>
             <form method="post">
               {% csrf_token %}
               <h3 style="text-align: center; padding-bottom: 30px; padding-top: 30px;">Enter Your Details</h3>
@@ -140,6 +143,7 @@
 
               <button class="btn btn-success" type="submit" onclick="return validation()">Submit</button>
             </form>
+          </center>
           </div>
       </div>
     </div>
