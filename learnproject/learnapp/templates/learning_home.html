@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM Learning Environment</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/codemaster_learning_home1.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="{% static 'images/logo15.png' %}" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">  
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'learning_home' %}"><span class="fa fa-home"></span> Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'python_home' %}"><span class="fa fa-bolt"></span> Python</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'angular_home' %}"><span class="fa fa-feed"></span> Angular</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'c_home' %}"><span class="fa fa-database"></span> C</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'cpp_home' %}"><span class="fa fa-database"></span> C++</a>
+                </li>
+
+            </ul>
+           
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-lg-12">
+                <center><h1>Welcome To Code Master</h1></center>
+                <center><p>Here We Provideded Tutorials For Beginners, 24x7 Whatsapp Tutor For Clearing Your Doubts.</p></center>
+            </div>
+            
+            <div class="col-xs-3 col-lg-3">
+                <center><a href="{% url 'python_home' %}"><img src="{% static 'images/python.png' %}" width="180px" class="image"></a></center>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <center><a href="{% url 'angular_home' %}"><img src="{% static 'images/angular.png' %}" width="180px" class="image"></a></center>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <center><a href="{% url 'c_home' %}"><img src="{% static 'images/c.png' %}" width="130px" class="image"></a></center>
+            </div>
+
+            <div class="col-xs-3 col-lg-3">
+                <center><a href="{% url 'cpp_home' %}"><img src="{% static 'images/c++.png' %}" width="130px" class="image"></a></center>
+            </div>
+        </div>
+    </div>
+
+   <div class="row" style="background-color: black !important;">
+        <div class="col-xs-12 col-lg-12">
+            <h1 style="color: gold; padding-top: 50px; margin-left: 20px; padding-bottom: 40px;">Follow Us</h1>
+            <a href="https://www.instagram.com/codemaster8848/" style="margin-left: 20px;"><img src="{% static 'images/Instagram.png' %}" width="50px"></a>
+            <a href="https://www.linkedin.com/in/arun-pacheeri-302480190" style="margin-left: 10px;"><img src="{% static 'images/LinkedIn.svg' %}" width="50px"></a>
+            <a href="https://codemaster234.blogspot.com/" style="margin-left: 10px;"><img src="{% static 'images/Blogger.svg' %}" width="50px"></a>
+        </div>
+        <div class="col-xs-12 col-lg-12" style="margin-top: 50px;">
+            <a href="" style="margin-left: 10px; color: white !important; font-size: 15px !important;"><label>Disclaimer</label></a>
+            <a href="" style="margin-left: 10px; color: white !important; font-size: 15px !important;"><label>Privacy Policy</label></a>
+            <a href="" style="margin-left: 10px; color: white !important; font-size: 15px !important;"><label for="">Developed By : Arun Pacheeri</label></a>
+            <a href="" style="margin-left: 10px; color: white !important; font-size: 15px !important;"><label>© 1996 - 2022 Code Master. All rights reserved.</label></a><br>
+        </div>
+   </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

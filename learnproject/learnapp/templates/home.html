@@ -7,27 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static  'css/codemaster_home.css'  %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static  'css/codemaster_home1.css'  %}">
     <script src="{% static 'javascript/codemaster_signup.js' %}"></script>
   </head>
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="{% static 'images/logo15.png' %}" width="150px"></a>
+        <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'images/logo15.png' %}" width="150px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'home' %}"><span class="fa fa-home"></span> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+              <a class="nav-link" href="#features"><span class="fa fa-book"></span> Features</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">Code Master Advantage</a>
+              <a class="nav-link" href="#testimonials"><span class="fa fa-star"></span> Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about"><span class="fa fa-magnet"></span> Code Master Advantage</a>
             </li>
           </ul>
           <button class="btn btn-warning" type="submit"><a href="{% url 'login' %}" style="text-decoration: none; color: black;">Login Now</a> </button>
@@ -133,7 +137,7 @@
           <center><div class="content1">
             <center><img src="{% static 'images/self1.svg' %}" width="50px" style="margin-top: 20px;"></center>
             <center><h4 style="margin-top: 20px;">Self Learning</h4></center>
-            <center><p style="margin-top: 20px;">Self Learning Helps Students To Learn Everything By <br> Themself And Make Better Skills That Need For A <br> Company. They Will Become Export Gradually <br> In The Field.</p></center>
+            <center><p style="margin-top: 20px;">Self Learning Helps Students To Learn <br> Everything By Themself And Make Better <br> Skills That Need For A Company. They Will <br> Become Export Gradually In The Field.</p></center>
           </div></center>
         </div>
 
@@ -201,10 +205,10 @@
           <a href="https://codemaster234.blogspot.com/" style="margin-left: 10px;"><img src="{% static 'images/Blogger.svg' %}" width="50px"></a>
         </div>
         <div class="col-xs-12 col-lg-12" style="margin-top: 50px;">
-          <a href="" style="margin-left: 10px; color: white;"><label>Disclaimer</label></a>
-          <a href="" style="margin-left: 10px; color: white;"><label>Privacy Policy</label></a>
-          <a href="" style="margin-left: 10px; color: white;"><label for="">Developed By : Arun Pacheeri</label></a>
-          <a href="" style="margin-left: 10px; color: white;"><label>© 1996 - 2022 Code Master. All rights reserved.</label></a>
+          <a href="" style="margin-left: 10px; color: white; font-size: 15px !important;"><label>Disclaimer</label></a>
+          <a href="" style="margin-left: 10px; color: white; font-size: 15px !important;"><label>Privacy Policy</label></a>
+          <a href="" style="margin-left: 10px; color: white; font-size: 15px !important;"><label for="">Developed By : Arun Pacheeri</label></a>
+          <a href="" style="margin-left: 10px; color: white; font-size: 15px !important;"><label>© 1996 - 2022 Code Master. All rights reserved.</label></a><br>
         </div>
       </div>
     </div>

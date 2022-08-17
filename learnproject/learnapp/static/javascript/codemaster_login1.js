@@ -80,3 +80,12 @@ function validation(){
     }
 
   }
+
+  function login(){
+    var email = document.getElementById('email')
+    var pass = document.getElementById('password')
+
+    if(email.value == "arunpacheeri@gmail.com" && pass.value == "12345678"){
+      window.open('https://codemaster8848.herokuapp.com/learnapp/main')
+    }
+  }
