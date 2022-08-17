@@ -86,6 +86,6 @@ function validation(){
     var pass = document.getElementById('password')
 
     if(email.value == "arunpacheeri@gmail.com" && pass.value == "12345678"){
-      window.open('https://codemaster8848.herokuapp.com/learnapp/main')
+      window.open('https://codemaster8848.herokuapp.com/learnapp/learning_home')
     }
   }
